@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- Last Published: Mon Oct 06 2025 14:27:47 GMT+0000 (Coordinated Universal Time) -->
+<html data-wf-domain="im-ada-template.webflow.io" data-wf-page="689f3e49a862eba9381ea5b8" data-wf-site="689f3e49a862eba9381ea5b9" lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Protected page
+  </title>
+  <meta content="Protected page" property="og:title"/>
+  <meta content="Protected page" property="twitter:title"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <link href="https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/css/im-ada-template.shared.deb021a71.min.css" rel="stylesheet" type="text/css"/>
+  <style>
+   @media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="eefd7ceb-42f7-405c-7278-20ea282aacf8"] {-webkit-transform:translate3d(0%, null, 0) scale3d(1, 1, 1) rotateX(null) rotateY(0deg) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, null, 0) scale3d(1, 1, 1) rotateX(null) rotateY(0deg) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, null, 0) scale3d(1, 1, 1) rotateX(null) rotateY(0deg) rotateZ(0) skew(0, 0);transform:translate3d(0%, null, 0) scale3d(1, 1, 1) rotateX(null) rotateY(0deg) rotateZ(0) skew(0, 0);transform-style:preserve-3d;}html.w-mod-js:not(.w-mod-ix) [data-w-id="eefd7ceb-42f7-405c-7278-20ea282aacfd"] {-webkit-transform:translate3d(-100%, null, 0) scale3d(1, 1, 1) rotateX(null) rotateY(-90deg) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, null, 0) scale3d(1, 1, 1) rotateX(null) rotateY(-90deg) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, null, 0) scale3d(1, 1, 1) rotateX(null) rotateY(-90deg) rotateZ(0) skew(0, 0);transform:translate3d(-100%, null, 0) scale3d(1, 1, 1) rotateX(null) rotateY(-90deg) rotateZ(0) skew(0, 0);transform-style:preserve-3d;}}
+  </style>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="anonymous" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   WebFont.load({  google: {    families: ["Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"]  }});
+  </script>
+  <script type="text/javascript">
+   !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
+  </script>
+  <link href="https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/68a2d2641a82e0deea102cc2_825b26081f462b37d5bdfb76162d8f4e_Ada%20Favicon.png" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/68a2d2694ee8a25ddd37ce53_052d6d8bad55bf28cd3c20e320840eeb_Ada%20Webclip.png" rel="apple-touch-icon"/>
+  <script>
+   function removeExisting() {
+        const idsToRemove = ['root'];
+
+        idsToRemove.forEach(id => {
+            const el = document.getElementById(id);
+            if (el) {
+                el.remove();
+                console.log(`Removed existing: <div id="${id}">`);
+            }
+        });
+
+        const classBasedRoot = document.querySelector('div.stack_s1n8l1x5.button_blajnuz');
+        if (classBasedRoot) {
+            classBasedRoot.remove();
+            console.log('Removed existing root via class-based selector.');
+        }
+
+        const badge = document.querySelector('.w-webflow-badge');
+        if (badge) {
+            badge.remove();
+            console.log("Removed existing: element with class 'w-webflow-badge'");
+        }
+
+        const meta = document.querySelector('meta[name="robots"][content="noindex"]');
+        if (meta) {
+            meta.remove();
+            console.log("Removed existing: <meta name='robots' content='noindex'>");
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        removeExisting();
+
+        const observer = new MutationObserver((mutations) => {
+            for (const mutation of mutations) {
+                for (const node of mutation.addedNodes) {
+                    if (node.nodeType === Node.ELEMENT_NODE) {
+                        if (
+                            node.tagName === 'META' &&
+                            node.getAttribute('name') === 'robots' &&
+                            node.getAttribute('content') === 'noindex'
+                        ) {
+                            node.remove();
+                            console.log("Removed: <meta name='robots' content='noindex'>");
+                        }
+
+                        if (node.classList && node.classList.contains('w-webflow-badge')) {
+                            node.remove();
+                            console.log("Removed: element with class 'w-webflow-badge'");
+                        }
+                    }
+                }
+            }
+        });
+
+        observer.observe(document, { childList: true, subtree: true });
+    });
+  </script>
+ </head>
+ <body>
+  <div class="utility-page-layout padding-global">
+   <img alt="" class="utility-page-image" id="w-node-_8f99374f-b02f-6a95-ee74-0e639190b3b8-381ea5b8" loading="lazy" sizes="(max-width: 1200px) 100vw, 1200px" src="https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/68ad7121b2939cc2528c0364_Robotic%20Hand%20with%20Phone.avif" srcset="https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/68ad7121b2939cc2528c0364_Robotic%20Hand%20with%20Phone-p-500.avif 500w, https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/68ad7121b2939cc2528c0364_Robotic%20Hand%20with%20Phone.avif 1200w"/>
+   <div class="utility-page-header" id="w-node-b4f8740b-6508-ecf1-1e7b-a44dffa7cc84-381ea5b8">
+    <div class="eyebrow">
+     <div class="eybrow-icon">
+     </div>
+     <div class="wrapper" data-wf--paragraph---custom--color="inherit">
+      <div class="wrapper" data-wf--variant-paragraph-weight--weight="inherit">
+       <div class="wrapper" data-wf--variant-paragraph-size--size="inherit">
+        <p class="paragraph">
+         401
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+    <h2 class="heading">
+     Protected Page
+    </h2>
+   </div>
+   <div class="global-form-block w-password-page w-form" id="w-node-_684fb963cdb6910b4f8e98ad00000000000b-381ea5b8">
+    <form action="/.wf_auth" class="global-form w-password-page" data-name="Email Form" data-wf-element-id="684fb963cdb6910b4f8e98ad00000000000c" data-wf-page-id="689f3e49a862eba9381ea5b8" id="email-form" method="post" name="email-form">
+     <div class="global-form-item">
+      <label class="w-password-page" for="pass">
+       Password
+      </label>
+      <input autofocus="true" class="global-form-input password w-password-page w-input" data-name="field" id="pass" maxlength="256" name="pass" placeholder="Enter your password" type="password"/>
+     </div>
+     <div class="password-send-button" data-w-id="eefd7ceb-42f7-405c-7278-20ea282aacf5">
+      <input class="button-primary password w-password-page w-button" data-wait="Please wait..." type="submit" value="Submit"/>
+      <div class="flip-component password">
+       <div class="flip-pane _1" data-w-id="eefd7ceb-42f7-405c-7278-20ea282aacf8" id="w-node-eefd7ceb-42f7-405c-7278-20ea282aacf8-381ea5b8">
+        <div class="icon large">
+         <svg aria-hidden="true" class="icon-svg" fill="none" height="100%" role="img" style="" viewbox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M3.56738 3.01059C3.32105 2.51794 3.51685 2.3163 4.02353 2.56964L22.0182 11.5669C22.5164 11.8161 22.5216 12.2396 22.0504 12.5013L4.69837 22.1414C4.21796 22.4082 3.98956 22.2059 4.18692 21.6927L7.36402 13.4322L17.2635 12.018L7.36403 10.6038L3.56738 3.01059Z" fill="currentColor" fill-rule="evenodd">
+          </path>
+         </svg>
+        </div>
+       </div>
+       <div class="flip-pane _2" data-w-id="eefd7ceb-42f7-405c-7278-20ea282aacfd" id="w-node-eefd7ceb-42f7-405c-7278-20ea282aacfd-381ea5b8">
+        <div class="icon large">
+         <svg aria-hidden="true" class="icon-svg" fill="none" height="100%" role="img" style="" viewbox="0 0 24 24" width="100%" xmlns="http://www.w3.org/2000/svg">
+          <path clip-rule="evenodd" d="M3.56738 3.01059C3.32105 2.51794 3.51685 2.3163 4.02353 2.56964L22.0182 11.5669C22.5164 11.8161 22.5216 12.2396 22.0504 12.5013L4.69837 22.1414C4.21796 22.4082 3.98956 22.2059 4.18692 21.6927L7.36402 13.4322L17.2635 12.018L7.36403 10.6038L3.56738 3.01059Z" fill="currentColor" fill-rule="evenodd">
+          </path>
+         </svg>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="global-error-message w-password-page w-form-fail">
+      <div>
+       Incorrect password. Please try again.
+      </div>
+     </div>
+     <div class="w-password-page w-embed w-script" style="display:none">
+      <input name="path" type="hidden" value="&lt;%WF_FORM_VALUE_PATH%&gt;"/>
+      <input name="page" type="hidden" value="&lt;%WF_FORM_VALUE_PAGE%&gt;"/>
+     </div>
+     <div class="w-password-page w-embed w-script" style="display:none">
+      <script type="application/javascript">
+       (function _handlePasswordPageOnload() {
+	  if (/[?&]e=1(&|$)/.test(document.location.search)) {
+	    document.querySelector('.w-password-page.w-form-fail').style.display = 'block';
+	  }
+	})()
+      </script>
+     </div>
+    </form>
+   </div>
+  </div>
+  <script crossorigin="anonymous" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=689f3e49a862eba9381ea5b9" type="text/javascript">
+  </script>
+  <script src="https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/js/im-ada-template.schunk.36b8fb49256177c8.js" type="text/javascript">
+  </script>
+  <script src="https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/js/im-ada-template.schunk.9ef5b6d9cef5b8aa.js" type="text/javascript">
+  </script>
+  <script src="https://cdn.prod.website-files.com/689f3e49a862eba9381ea5b9/js/im-ada-template.ce0f12e6.9156a9e1dfa47ad7.js" type="text/javascript">
+  </script>
+ </body>
+</html>
